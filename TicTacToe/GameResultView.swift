@@ -18,12 +18,10 @@ struct GameResultView: View {
     
     var points: Array<Double>?
     
-    
     init(result: Array<Int>) {
         self.result = result
         points = coordinates[result] ?? nil
     }
-    
     
     var body: some View {
         Group {
@@ -31,7 +29,6 @@ struct GameResultView: View {
                 Path() { path in
                     path.move(to: CGPoint(x: points?[0] ?? 0, y: points?[1] ?? 0))
                     path.addLine(to: CGPoint(x: points?[2] ?? 0, y: points?[3] ?? 0))
-                    
                 }
                 .stroke(Color.green, lineWidth: 5)
             } else {
