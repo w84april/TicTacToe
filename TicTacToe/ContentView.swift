@@ -18,7 +18,7 @@ struct ContentView: View {
                     .frame(width: 50, height: 50)
             }.position(x: 200, y: 30)
             GridView(matrix: $matrix, count: $count, winner: $winner).padding()
-        }
+        }.background(Color.white)
     }
 }
 
