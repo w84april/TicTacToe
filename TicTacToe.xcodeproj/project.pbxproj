@@ -14,6 +14,8 @@
 		366CFBD42BCC7D180007D778 /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366CFBD32BCC7D180007D778 /* TicTacToeTests.swift */; };
 		366CFBDE2BCC7D180007D778 /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366CFBDD2BCC7D180007D778 /* TicTacToeUITests.swift */; };
 		366CFBE02BCC7D180007D778 /* TicTacToeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366CFBDF2BCC7D180007D778 /* TicTacToeUITestsLaunchTests.swift */; };
+		3688D1E52BCC8B8D009A841F /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3688D1E42BCC8B8D009A841F /* GridView.swift */; };
+		3688D1E72BD1582D009A841F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3688D1E62BD1582D009A841F /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		366CFBD92BCC7D180007D778 /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		366CFBDD2BCC7D180007D778 /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		366CFBDF2BCC7D180007D778 /* TicTacToeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3688D1E42BCC8B8D009A841F /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		3688D1E62BD1582D009A841F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		366CFBB62BCC7D170007D778 = {
 			isa = PBXGroup;
 			children = (
+				3688D1E62BD1582D009A841F /* .gitignore */,
 				366CFBC12BCC7D170007D778 /* TicTacToe */,
 				366CFBD22BCC7D180007D778 /* TicTacToeTests */,
 				366CFBDC2BCC7D180007D778 /* TicTacToeUITests */,
@@ -98,6 +103,7 @@
 				366CFBC42BCC7D170007D778 /* ContentView.swift */,
 				366CFBC62BCC7D180007D778 /* Assets.xcassets */,
 				366CFBC82BCC7D180007D778 /* Preview Content */,
+				3688D1E42BCC8B8D009A841F /* GridView.swift */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				366CFBCA2BCC7D180007D778 /* Preview Assets.xcassets in Resources */,
+				3688D1E72BD1582D009A841F /* .gitignore in Resources */,
 				366CFBC72BCC7D180007D778 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				366CFBC52BCC7D170007D778 /* ContentView.swift in Sources */,
+				3688D1E52BCC8B8D009A841F /* GridView.swift in Sources */,
 				366CFBC32BCC7D170007D778 /* TicTacToeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
